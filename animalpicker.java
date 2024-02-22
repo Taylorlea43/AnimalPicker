@@ -9,10 +9,12 @@ public static void main(String[] args) {
 
     if(animal.contains("c")){
         System.out.println("CAT ASCII ART HERE");
+        return;
     }else if(animal.contains("d")){
         System.out.println("DOG ASCII ART HERE");
+        return;
     }else{
-        System.out.println("error: unknown animal");
+        System.out.println("Error: unknown animal");
     }
     
 
