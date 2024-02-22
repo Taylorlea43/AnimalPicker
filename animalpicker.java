@@ -12,7 +12,7 @@ public static void main(String[] args) {
     }else if(animal.contains("d")){
         System.out.println("DOG ASCII ART HERE");
     }else{
-        System.out.println("error: animal not found");
+        System.out.println("error: unknown animal");
     }
     
 
