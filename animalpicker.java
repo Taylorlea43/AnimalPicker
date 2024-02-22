@@ -9,10 +9,10 @@ public static void main(String[] args) {
 
     while(animal != "c" || animal != "d"){
     if(animal.contains("c")){
-        System.out.println("CAT ASCII ART HERE");
+        System.out.println(" /\\_/\\\n( o.o )\n > ^ <");
         return;
     }else if(animal.contains("d")){
-        System.out.println("DOG ASCII ART HERE");
+        System.out.println("            __\n(\\,--------\'()\'--o\n (_    ___    /~\"\n  (_)_)  (_)_)");
         return;
     }else{
         System.out.println("Error: invalid animal, please enter 'c' or 'd'");
